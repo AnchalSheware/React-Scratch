@@ -1,5 +1,5 @@
-import react from "react";
-import './sign-form.css';
+import React from "react";
+import './sign-form.scss';
 import Twittericon from "../../Assets/icons8-twitter.svg"
 import FacebookIcon from "../../Assets/icons8-facebook-f.svg"
 import Googleicon from "../../Assets/icons8-google.svg"
@@ -14,13 +14,13 @@ const LoginForm = () => {
                     <div  className="userdetails">Username</div>
                     <div>
                         <img className="userimage" src={UserIcon}></img>
-                        <input  class="input100" type="text"  placeholder="Type your email"></input></div>
+                        <input  className="input100" type="text"  placeholder="Type your email"></input></div>
                 </div>
                 <img className="lockimage" src={LockIcon}></img>
                 <div className="pass details">
 
                     <div className="userdetails">Password</div>
-                    <div><input class="input100"type="password" placeholder="Type your password."></input></div>
+                    <div><input className="input100"type="password" placeholder="Type your password."></input></div>
                 </div>
                 <div className="forgot-text">
                     <a href="#">Forgot Password</a>
