@@ -1,0 +1,131 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  background-image: url(./bg.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 3%;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.Inner-container {
+  width: 500px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+
+  padding: 65px 45px 4px 41px;
+  box-sizing: border-box;
+}
+.login-header {
+  display: block;
+
+  font-size: 39px;
+  color: #333;
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 49px;
+}
+.userdetails {
+  font-family: Poppins-Regular;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+  padding-left: 7px;
+}
+.input100 {
+  font-family: Poppins-Medium;
+  font-size: 18px;
+  color: #333;
+  line-height: 1.2;
+  display: block;
+  width: 89%;
+  height: 55px;
+  background: 0 0;
+  padding: 0 7px 0 43px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #d9d9d9;
+  margin-bottom: 18px;
+}
+.forgot-text {
+  text-align: right;
+  margin-bottom: 33px;
+  margin-top: 8px;
+}
+a {
+  text-decoration: none;
+  color: #666;
+}
+.loginbtn {
+  font-size: 16px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  width: 100%;
+  height: 50px;
+  background: -webkit-linear-gradient(left, #00dbde, #fc00ff);
+  border: none;
+  border-radius: 30px;
+  margin-bottom: 48px;
+}
+.center-text {
+  font-family: Poppins-Regular;
+  margin-bottom: 20px;
+  margin-top: 54px;
+  text-align: center;
+  color: #666;
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+}
+.footer {
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: Poppins-Regular;
+}
+.link {
+  font-size: 25px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 5px;
+}
+.bg1 {
+  background-color: #3b5998;
+}
+.bg2 {
+  background-color: #1da1f2;
+}
+.bg3 {
+  background-color: #ea4335;
+}
+img {
+  height: 21px;
+}
+.userimage {
+  position: absolute;
+  margin-top: 16px;
+}
+.lockimage {
+  position: absolute;
+  margin-top: 40px;
+}
