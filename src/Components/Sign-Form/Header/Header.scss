@@ -1,0 +1,25 @@
+.main-header {
+  display: flex;
+  justify-content: space-between;
+
+  background: -webkit-linear-gradient(left, #00dbde, #fc00ff);
+  padding: 20px;
+  box-sizing: border-box;
+}
+.logo {
+  img {
+    height: 80px;
+    width: 30vh;
+  }
+  button {
+    padding: 13px 32px;
+    font-size: 26px;
+    background-color: ghostwhite;
+    border: none;
+    border-radius: 85px;
+    color: darkblue;
+    line-height: 1.2;
+    margin-top: 12px;
+    margin-right: 19px;
+  }
+}

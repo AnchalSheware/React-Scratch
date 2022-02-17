@@ -5,9 +5,16 @@ import FacebookIcon from "../../Assets/icons8-facebook-f.svg"
 import Googleicon from "../../Assets/icons8-google.svg"
 import UserIcon from "../../Assets/icons8-user-64.png"
 import LockIcon from "../../Assets/icons8-lock-50.png"
+import BGImage from "./bg.jpg"
+import Header from "./Header/Header";
+
 const LoginForm = () => {
+    
     return(
-        <div className="container">
+        <>
+         <Header name="Sign Up" />
+        <div className="container " style={{backgroundImage : `url(${BGImage})`}}>
+           
           <div className="Inner-container">
                 <span className="login-header">Login</span>
                 <div className="userinfo">
@@ -42,6 +49,7 @@ const LoginForm = () => {
              </div>
             
         </div>
+        </>
     )
 }
 
